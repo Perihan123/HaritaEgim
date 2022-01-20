@@ -1,6 +1,5 @@
-import React from 'react';
+import React , {useState} from 'react';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
-import { useState } from 'react/cjs/react.development';
 import Anasayfa from './components/Anasayfa';
 import Hesaplama from './components/Hesaplama';
 import Orneksoru from './components/OrnekSoru';
